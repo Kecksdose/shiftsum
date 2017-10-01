@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='shiftsum',
-    version='0.2dev0',
+    version='0.2dev1',
     packages=['shiftsummary'],
     license='MIT',
     long_description='Summarizes and plots lhcb DM/SL shifts.',
@@ -15,7 +15,7 @@ setup(
         'pandas',
         'matplotlib'
     ],
-    url='https://github.com/Kecksdose/ShiftAnalysis',
+    url='https://github.com/Kecksdose/shiftsum',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
