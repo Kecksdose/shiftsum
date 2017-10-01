@@ -18,7 +18,7 @@ parser.add_argument(
     '-s',
     '--shifters',
     help='Shifter names and timing slots for shifts (in json format).',
-    default='./inputs/shifters.json'
+    required=True
 )
 parser.add_argument(
     '-o',

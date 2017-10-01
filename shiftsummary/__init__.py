@@ -1,7 +1,9 @@
+import datetime
+
 class Shifter(dict):
-    import datetime
 
     def __init__(self, name, df_runs, shifts, **kwargs):
+        print('PLEASE WORK')
         self["name"] = name
         self["df_runs"] = df_runs
         self["shifts"] = shifts
