@@ -31,5 +31,5 @@ The resulting plots/summary will be stored in the `results/` folder in the curre
 ```
 
 ### Example plots
-![beamtime plot](example_results/beamtime.pdf)
-![lumi plot](example_results/lumi.pdf)
+![beamtime plot](example_results/beamtime.png)
+![lumi plot](example_results/lumi.png)
