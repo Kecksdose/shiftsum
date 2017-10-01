@@ -9,7 +9,10 @@ rm -rf dist && rm -rf shiftsum.egg-info && python setup.py sdist && pip install 
 ```
 python setup.py sdist
 ```
-4. Commit to python master/develop/... branch.
+4. Commit to python master/develop/... branch
+```
+git commit -a -m  "Fix XYZ"
+```
 5. Upload to pypi
 ```
 twine upload dist/*
