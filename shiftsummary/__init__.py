@@ -107,6 +107,7 @@ def shiftsummary(rundb, shifters, output_dir):
     import matplotlib.pyplot as plt
     import json
     import os
+    import datetime
 
     # Read and format data
     df = pd.read_csv(rundb)

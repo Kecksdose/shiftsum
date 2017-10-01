@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='shiftsum',
-    version='0.2dev1',
+    version='0.2dev2',
     packages=['shiftsummary'],
     license='MIT',
     long_description='Summarizes and plots lhcb DM/SL shifts.',
