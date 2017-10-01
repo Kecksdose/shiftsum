@@ -12,7 +12,6 @@ Summarizes and plots lhcb DM/SL shifts.
 The resulting plots/summary will be stored in the `results/` folder in the current directory (to change this, use the `-o /path/to/results` argument).
 
 
-
 ### Shifter file example
 ```
     {
@@ -30,3 +29,7 @@ The resulting plots/summary will be stored in the `results/` folder in the curre
         }
     }
 ```
+
+### Example plots
+![beamtime plot](example_results/beamtime.pdf)
+![lumi plot](example_results/lumi.pdf)
